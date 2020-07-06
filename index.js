@@ -14,8 +14,8 @@ app.get('/', function(req, res) {
 });
 
 // about page 
-app.get('/vote', function(req, res) {
-    res.render('pages/vote');
+app.get('/sujet', function(req, res) {
+    res.render('pages/sujet');
 });
 
 // resultat page
