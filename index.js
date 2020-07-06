@@ -13,6 +13,10 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 
+// inscription
+app.get('/inscription', function(req, res) {
+    res.render('pages/inscription');
+});
 // about page 
 app.get('/sujet', function(req, res) {
     res.render('pages/sujet');
