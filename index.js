@@ -14,8 +14,13 @@ app.get('/', function(req, res) {
 });
 
 // about page 
-app.get('/about', function(req, res) {
-    res.render('pages/about');
+app.get('/vote', function(req, res) {
+    res.render('pages/vote');
+});
+
+// resultat page
+app.get('/resultat', function(req, res) {
+    res.render('pages/resultat');
 });
 
 app.listen(8080);
