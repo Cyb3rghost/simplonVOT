@@ -18,8 +18,8 @@ app.get('/inscription', function(req, res) {
     res.render('pages/inscription');
 });
 // about page 
-app.get('/vote', function(req, res) {
-    res.render('pages/vote');
+app.get('/sujet', function(req, res) {
+    res.render('pages/sujet');
 });
 
 // resultat page
